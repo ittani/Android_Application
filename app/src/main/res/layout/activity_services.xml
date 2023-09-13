@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".services_activity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Vision: Providing the Best Services"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/textViewSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What can we do for you today?"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonCarRental"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Car Rental"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/buttonBusService"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Bus Service"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCarRental"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonTours"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tours"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBusService"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="229dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="72dp"
+        android:text="Back"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTours" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
