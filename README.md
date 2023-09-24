@@ -1,5 +1,6 @@
 # Android Application Development
-![image](https://github.com/ittani/FirstApplication/assets/42994867/81588664-51d7-4c96-b45f-773231fb7db0)
+![image](https://github.com/ittani/FirstApplication/assets/42994867/23229a6b-4d25-47cc-8d50-7e2cfcc123cd)
+
 
 
 ## 
